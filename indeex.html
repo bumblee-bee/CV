@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Sanjana Tabassum</title>
+
+    <style>
+        /* ===== Reset & Base ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f0f4f8;
+            padding: 40px;
+        }
+
+        .cv {
+            max-width: 1000px;
+            margin: auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        /* ===== Header ===== */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 15px;
+        }
+
+        .header h1 {
+            font-size: 38px;
+            color: #2c3e50;
+        }
+
+        .header p {
+            font-size: 16px;
+            margin-top: 5px;
+            color: #555;
+        }
+
+        .photo img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 3px solid #2c3e50;
+            object-fit: cover;
+        }
+
+        /* ===== Sections ===== */
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2c3e50;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-bottom: 12px;
+        }
+
+        .section-content p, .section-content li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .two-col {
+            display: flex;
+            gap: 40px;
+        }
+
+        .two-col div {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <!-- ===== Header ===== -->
+    <div class="header">
+        <div>
+            <h1>Sanjana Tabassum</h1>
+            <p>Computer Science & Engineering Student</p>
+        </div>
+        <div class="photo">
+            <img src="ss.jpeg" alt="Profile Photo">
+        </div>
+    </div>
+
+    <!-- ===== Profile Summary ===== -->
+    <div class="section">
+        <div class="section-title">Profile Summary</div>
+        <div class="section-content">
+            <p>
+                Motivated CSE student at Premier University, fluent in Bangla and English,
+                passionate about robotics, embedded systems, and programming. Strong interest
+                in hands-on projects, problem solving, and continuous skill development.
+            </p>
+        </div>
+    </div>
+
+    <!-- ===== Contact ===== -->
+    <div class="section">
+        <div class="section-title">Contact</div>
+        <div class="section-content two-col">
+            <div>
+                <p>📞 Phone: 01715258063</p>
+                <p>📧 Email: sanjanaatabaa@gmail.com</p>
+            </div>
+            <div>
+                <p>💻 GitHub:
+                    <a href="https://github.com/bumblee-bee" target="_blank">github.com/bumblee-bee</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== Skills ===== -->
+    <div class="section">
+        <div class="section-title">Skills</div>
+        <div class="section-content">
+            <ul>
+                <li>Leadership</li>
+                <li>Teamwork</li>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== Technical Skills ===== -->
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="section-content">
+            <ul>
+                <li><strong>Programming:</strong> C, C++, Python</li>
+                <li><strong>Robotics & Embedded:</strong> Arduino, ESP32, Sensors, Motor Drivers, Raspberry Pi</li>
+                <li><strong>Concepts:</strong> Control Systems, Line Following, Obstacle Avoidance, PID Control, Basic AI</li>
+                <li><strong>Tools:</strong> Git, GitHub, Arduino IDE, Proteus, MATLAB/Simulink</li>
+                <li><strong>Platforms:</strong> Embedded Linux, Microcontroller-based Systems</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== Robotics Projects ===== -->
+    <div class="section">
+        <div class="section-title">Robotics Projects</div>
+        <div class="section-content">
+            <ul>
+                <li><strong>Autonomous Line Following Robot:</strong> Arduino-based robot using IR sensors for path detection and motor control.</li>
+                <li><strong>Obstacle Avoidance Robot:</strong> Smart robot using ultrasonic sensors to detect and avoid obstacles in real time.</li>
+                <li><strong>Smart Home Automation System:</strong> Microcontroller-based system to control appliances using sensors and automation rules.</li>
+                <li><strong>Mini Robotic Arm Prototype:</strong> Servo-controlled pick-and-place functionality using Arduino and C++.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== Hands-on Experience ===== -->
+    <div class="section">
+        <div class="section-title">Hands-on Experience</div>
+        <div class="section-content">
+            <ul>
+                <li>Hardware wiring, debugging, and sensor calibration</li>
+                <li>Microcontroller programming and real-time testing</li>
+                <li>Team collaboration on design and implementation of robotic systems</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== Relevant Coursework ===== -->
+    <div class="section">
+        <div class="section-title">Relevant Coursework</div>
+        <div class="section-content">
+            <ul>
+                <li>Embedded Systems Design</li>
+                <li>Control Systems</li>
+                <li>Robotics and Automation</li>
+                <li>Microprocessor Programming</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== Certifications / Workshops ===== -->
+    <div class="section">
+        <div class="section-title">Certifications / Workshops</div>
+        <div class="section-content">
+            <ul>
+                <li>Workshop on Arduino Embedded Systems</li>
+                <li>Online Certification in Python for Robotics (Coursera / NPTEL)</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== Strengths & Soft Skills ===== -->
+    <div class="section">
+        <div class="section-title">Strengths & Soft Skills</div>
+        <div class="section-content">
+            <ul>
+                <li>Strong passion and love for robotics</li>
+                <li>Problem solving and analytical thinking</li>
+                <li>Effective communication and teamwork</li>
+                <li>Quick learning and adaptability</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ===== Research Interest ===== -->
+    <div class="section">
+        <div class="section-title">Research Interest</div>
+        <div class="section-content">
+            <p>Robotics, Embedded AI, Autonomous Systems, Human–Robot Interaction, IoT Applications</p>
+        </div>
+    </div>
+
+    <!-- ===== Education ===== -->
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="section-content">
+            <p><strong>Afroz Khan Model School, Mymensingh</strong></p>
+            <p>S.S.C | GPA: 5.00</p><br>
+
+            <p><strong>Chittagong University College, Chittagong</strong></p>
+            <p>H.S.C | GPA: 5.00</p><br>
+
+            <p><strong>Premier University, Chittagong</strong></p>
+            <p>B.Sc. in Computer Science & Engineering</p>
+            <p>2024 – Present</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
